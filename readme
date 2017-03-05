@@ -31,17 +31,23 @@ git push -u origin master
 
 安装mongodb
 apt-get install mongodb
+npm install pm2 -g
+pm2 start server.js --name "task"
 
 
 设置环境变量
-export DEBUG
+export DEBUG=crawl:*
 
 
 9,启动服务
-
+cd tasks
+node main.js
+cd ..
+node sever.js
 
 10,永久启动服务
-
+npm install pm2 -g
+pm2 start server.js --name "zhufengnodejs-crawl"
 
 
 */
