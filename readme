@@ -1,0 +1,42 @@
+/*
+##apt-get 是乌班图的包管理器
+
+更新
+```
+apt-get update
+```
+
+
+
+安装npm
+apt-get install npm
+
+
+安装n
+npm  install n -g
+n stable 安装稳定版本
+
+安装git
+
+
+把当前项目变成git仓库
+git init
+git add -A
+git commit -m ""
+git remote add origin https://github.com/shaohua-e/learngit.git
+git push -u origin master
+
+
+安装mongodb
+apt-get install mongodb
+
+
+设置环境变量
+export DEBUG
+
+
+
+
+
+
+*/
