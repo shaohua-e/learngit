@@ -1,6 +1,8 @@
 /*
 ##apt-get 是乌班图的包管理器
 
+
+ssh root@121.41.23.94
 更新
 ```
 apt-get update
@@ -35,7 +37,10 @@ apt-get install mongodb
 export DEBUG
 
 
+9,启动服务
 
+
+10,永久启动服务
 
 
 
